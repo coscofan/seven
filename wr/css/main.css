@@ -1,0 +1,339 @@
+@charset "utf-8"; 
+
+
+body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr,
+	input, legend, li, ol, p, td, textarea, th, ul {
+	margin: 0;
+	padding: 0
+}
+
+body, button, input, select, textarea {
+/* 	font: 12px/1.5 arial, tahoma, \5b8b\4f53 */
+	font: 12px/20px "Microsoft YaHei";
+}
+
+.ng-iconfont, em, i {
+	font-style: normal;
+    font: 14px/20px "Microsoft YaHei";
+}
+
+.ng-toolbar, .ng-bar-node {
+	line-height: 35px;
+	height: 35px
+}
+
+body {
+	background: #FFF
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%
+}
+
+fieldset, img {
+	border: 0
+}
+
+li, ol, ul {
+	list-style: none
+}
+
+button, input, select, textarea {
+	font-size: 100%;
+	outline: 0
+}
+
+textarea {
+	resize: none
+}
+
+div {
+    display: block;
+}
+
+a {
+	text-decoration: none
+}
+
+a:hover {
+	color: #F60;
+	text-decoration: underline
+}
+
+.ng-toolbar a {
+    color: #666;
+}
+
+.ng-toolbar a:hover {
+    color: #ff9722;
+}
+
+.ng-toolbar .ng-bar-node:hover, a.ng-close:hover {
+	text-decoration: none
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+/* .clearfix { */
+/* 	zoom: 1 */
+/* } */
+
+.clear {
+	overflow: hidden;
+	font-size: 0
+}
+
+.hide {
+	display: none
+}
+
+.lazy-loading, img.err-product {
+	background: url(images/blankbg.gif?v=2015102601) 50% 50% no-repeat
+}
+
+.wrapper {
+	width: 990px;
+	min-width: 990px;
+	margin: 0 auto;
+	clear: both
+}
+
+.g-footer, .g-header, .g-toolbar {
+	width: 100%;
+	min-width: 990px
+}
+
+
+.ng-toolbar {
+    position: relative;
+    width: 100%;
+    min-width: 990px;
+    border-bottom: 1px solid #eee;
+    background: #f5f5f5;
+}
+
+
+.ng-toolbar, .ng-toolbar .ng-bar-node, a.ng-close {
+    line-height: 35px;
+    height: 35px;
+}
+
+
+.head-bg {
+    position: relative;
+    width: 100%;
+    padding: 25px 0 25px;
+    background: url(../img/header.png);
+    text-align: center;
+}
+
+.head-words {
+    font: 18px "Microsoft YaHei";
+    color: #fff;
+}
+
+.head-words2 {
+    font: 14px "Microsoft YaHei";
+    color: #fff;
+}
+
+.title-words {
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+
+
+.ng-toolbar .ng-bar-node i.ng-backhome {
+    float: left;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 3px;
+    width: 16px;
+    line-height: 31px;
+    _line-height: 31px;
+}
+
+.ng-toolbar-left {
+    float: left;
+}
+
+
+.cont-wrap {
+    position: relative;
+    max-width: 740px;
+    margin: 30px auto;
+/*     padding: 0 40px 5px; */
+    background: #fff;
+/*     border: 1px solid #e4e6f0; */
+/*     box-shadow: 0 0 5px 0 #ddd; */
+    _width: 740px;
+}
+.step {
+    position: relative;
+    margin-bottom: 20px;
+    z-index: 1;
+}
+
+.step h3 {
+    font: 14px/20px "Microsoft YaHei";
+}
+
+
+.clearfix {
+    zoom: 1;
+}
+
+.title-must {
+    float: left;
+/*     margin: 2px 0 0 6px; */
+ 	margin-left: 5px;
+    color: red;
+}
+
+.title-span {
+    float: left;
+    margin-left: 5px;
+    color: #5d5d65;
+}
+
+.title-span2 {
+    float: left;
+    margin-left: 80px;
+    color: #5d5d65;
+}
+
+.title-icon {
+    float: left;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+.title-span-input{
+	float: left;
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    font: "10px/10px "Microsoft YaHei"
+}
+
+.ul-items {
+    height: 40px;
+}
+
+.step-cont {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.main-sel .ul-item, .cus-identify dd {
+    position: relative;
+    width: 92px;
+    float: left;
+    margin-right: 23px;
+    text-align: center;
+    font: 12px/30px "Microsoft YaHei";
+    border: solid 1px #dce1e7;
+    border-radius: 6px;
+    background-color: #fdfdfd;
+    cursor: pointer;
+    _display: inline;
+}
+
+.cover-input{
+	margin-left: 20px;
+	font: 12px/26px "Microsoft YaHei";
+	width: 30%;
+/* 	padding: 10px */	
+	text-align:left;
+	border: solid 1px #dce1e7;
+	color: rgb(204, 204, 204);
+}
+
+.cover-input-edit{
+    margin-left: 20px;
+    font: 12px/26px "Microsoft YaHei";
+    width: 30%;
+/*  padding: 10px */    
+    text-align:left;
+    border: solid 1px #dce1e7;
+    color: rgb(93, 93, 101);
+}
+
+.text-area {
+    width: 693px;
+    height: 148px;
+    padding: 10px;
+/*     padding-left:-20px; */
+    border: 1px solid #dce1e8;
+    font: 12px/18px "Microsoft YaHei";
+    text-align:left;
+    color: #ccc;
+    border-radius: 7px;
+    overflow: hidden;
+    color: rgb(93, 93, 101);
+}
+
+.num-tips {
+    position: absolute;
+    top: 8px;
+    right: 15px;
+    font: 12px/20px "Microsoft YaHei";
+}
+
+.text-num {
+    float: left;
+    color: #5D5D65;
+    line-height: 34px;
+}
+
+.input-submit{
+	position: relative;
+    width: 92px;
+    float: left;
+    margin-right: 23px;
+    text-align: center;
+    font: 12px/30px "Microsoft YaHei";
+    border: solid 1px #dce1e7;
+    border-radius: 6px;
+    background-color: #ff9722;
+    cursor: pointer;
+    _display: inline;
+    color: #fff;
+}
+
+
+.upload-img .add-upload a {
+    display: block;
+    width: 70px;
+    height: 70px;
+    /*background: url(../img/upload.png) no-repeat -78px -90px; */
+    background: url(../img/upload.png) no-repeat -40px -16px;
+}
+
+
+.main-sel .ul-items .hover, .main-sel .ul-items-selected, .cus-identify .hover, .cus-identify .select {
+    border: 1px solid #ff9722;
+}
+
+.ul-item i{
+    display: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 16px;
+    width: 16px;
+    background: url("../img/upload.png") no-repeat 0 -90px;
+    _display: block;
+    _height: 0;
+    _width: 0;
+}
